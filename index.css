@@ -1,4 +1,4 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'));
+@import url(@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'));
 
 
 * {
@@ -9,12 +9,26 @@
 
 body {
     background-color: aliceblue;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 
 a {
     color: black;
     text-decoration: none;
+}
+
+.header-logo {
+    justify-content: left;
+}
+
+.header-menu {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.nav-menu-li {
+    display: inline;
 }
 
 .title {
@@ -32,11 +46,9 @@ a {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.nav-menu {
-    display: inline;
-    flex-direction: row;
-    justify-content: space-around;
-}
+ 
+
+
 
 .property {
     display: flex;
@@ -86,7 +98,7 @@ a {
 }
 
 .products_name {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
     background-color: pink;
     color: black;
     padding: 15px 0;
@@ -95,7 +107,7 @@ a {
 }
 
 .products__price {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-size: 32px;
     color: green;
     font-weight: 600;
@@ -105,7 +117,7 @@ a {
 }
 
 .products__view {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-size: 20px;
     color: red;
     font-weight: 700;
