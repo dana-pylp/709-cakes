@@ -1,35 +1,114 @@
-.header__menu{
+@import url(@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'));
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
     color: black;
     text-decoration: none;
-   
 }
 
+.title {
+    font-size: 48px;
+    color: rgba(0, 0, 255, 0.559);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
-.title{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:slateblue;
-    font-size: 2.5em;
+.email__place {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.nav-menu {
+    display: inline;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.property {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+.property-menu {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    margin-left: 40px;
+
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.image-cake {
+    display: flex;
+    align-items: center;
+}
+
+.buy__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.products {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    width: 250px;
+    height: 320px;
+    margin: 12px;
+    border: 2px solid #000;
 }
-.email__place{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 20px;
-    margin-top: 50px;
+
+.products_name {
+    font-family: 'Open Sans', sans-serif;
+    background-color: pink;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+
 }
-.email__submit{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 20px;
-    margin-top: 30px;    
+
+.products__price {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    color: green;
+    font-weight: 600;
+    padding: 15px 0;
+    margin: 15px;
+    width: 100%;
 }
-.expert-bakers-img{
-    width: 100px;
-    margin-top: 30px;
-    align-items: center;
-    justify-content: center;
+
+.products__view {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+    margin: 20px;
+    width: 100%;
 }
